@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../CSS/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../CSS/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="../CSS/main.css" />
+    <link rel="icon" type="image/x-icon" href="../Icons/favicon.ico" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div
+      class="conatiner vh-100 d-flex justify-content-center align-items-center"
+    >
+      <form
+        method="post"
+        class="container vh-75 d-flex justify-content-center align-items-center flex-column p-3 w-75 form my-form"
+      >
+        <div class="form-floating mb-3 w-100">
+          <input
+            type="text"
+            class="form-control userName"
+            id="floatingInput"
+            placeholder="User Name"
+            name="userName"
+            required
+            autocomplete="off"
+          />
+          <label for="floatingInput">User Name</label>
+          <!-- <div class="text-danger fw-medium">
+            <p>Input User Name is Incorrect</p>
+          </div> -->
+        </div>
+        <div class="form-floating mb-3 w-100">
+          <input
+            type="email"
+            class="form-control email"
+            id="floatingInput"
+            placeholder="Email"
+            name="userEmail"
+            required
+            autocomplete="off"
+          />
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating mb-3 w-100">
+          <input
+            type="text"
+            class="form-control phone"
+            id="floatingInput"
+            placeholder="Phone Number"
+            name="phoneNumber"
+            required
+            autocomplete="off"
+          />
+          <label for="floatingInput">phoneNumber</label>
+        </div>
+        <div class="form-floating w-100 mb-3">
+          <input
+            type="text"
+            class="form-control address"
+            id="floatingPassword"
+            placeholder="Address"
+            name="address"
+            required
+            autocomplete="off"
+          />
+          <label for="floatingPassword">Address</label>
+        </div>
+
+        <button class="btn btn-outline-info w-100 py-3 fw-bolder sub-button">
+          Submit
+        </button>
+      </form>
+    </div>
+
+    <script src="../JS/bootstrap.bundle.min.js"></script>
+    <script src="../JS/main.js"></script>
+  </body>
+</html>

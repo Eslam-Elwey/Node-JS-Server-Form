@@ -1,0 +1,9 @@
+body {
+  background-image: url(../images/polygon-scatter-haikei.svg);
+}
+
+.wave {
+  background-image: url(../images/stacked-waves-haikei.svg);
+  background-repeat: none;
+  background-size: cover;
+}
